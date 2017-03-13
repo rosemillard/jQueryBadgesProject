@@ -5,7 +5,7 @@ $(function() {
      url: 'https://www.codeschool.com/users/RoseMillard',
      dataType: 'jsonp',
      success: function(response) {
-       // handle response
+      console.log('response', response);
      }
    });
 
